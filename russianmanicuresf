@@ -1,0 +1,15 @@
+# Initialize git repository (if not already done)
+git init
+
+# Add all files to git
+git add .
+
+# Create your first commit
+git commit -m "Initial commit: Photography portfolio website"
+
+# Add your GitHub repository as remote (replace russianmanicuresf and russianmanicuresf)
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
